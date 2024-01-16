@@ -43,7 +43,7 @@ public class LibraryTesting {
 
     @Test
     public void testUpdateBorrowerAddress() throws IOException {
-        Borrower borrower = new Borrower(1, "John Doe", "123 Main St", 123456789);
+        Borrower borrower = new Borrower(3, "John Doe", "1235 Main St", 123456789);
 
         // Simulate user input
         String input = "n\ny\nNew Address\nn\n";
@@ -67,7 +67,7 @@ public class LibraryTesting {
 
     @Test
     public void testUpdateBorrowerPhoneNumber() throws IOException {
-        Borrower borrower = new Borrower(1, "John Doe", "123 Main St", 123456789);
+        Borrower borrower = new Borrower(1, "John Doe", "123 Main St", 1234567890);
 
         // Simulate user input
         String input = "n\nn\ny\n987654321\n";
