@@ -83,15 +83,15 @@ public class Borrower extends Person
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         
         
-        System.out.println(
-                "\nDo you want to update " + getName() + "'s Name ? (y/n)"
-        );  
+        System.out.println("\nDo you want to update " + getName() + "'s Name ? (y/n)");  
         choice = sc.next();
 
         updateBorrowerName(choice, reader);
 
 
-        System.out.println("\nDo you want to update " + getName() + "'s Address ? (y/n)");  
+        System.out.println(
+                "\nDo you want to update " + getName() + "'s Address ? (y/n)"
+        );  
         choice = sc.next();
 
         updateBorrowerAddress(choice, reader);
