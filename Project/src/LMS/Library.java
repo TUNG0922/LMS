@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.sql.SQLIntegrityConstraintViolationException;
 import java.sql.Statement;
 import java.sql.Types;
-import java.util.InputMismatchException;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -451,7 +451,7 @@ public class Library {
                 System.out.println("Enter Salary: ");
                 salary = sc.nextDouble();
             }
-            catch (java.util.InputMismatchException e)
+            catch (InputMismatchException e)
             {
                 System.out.println("\nInvalid Input.");
             }
@@ -472,7 +472,7 @@ public class Library {
                 System.out.println("Enter Salary: ");
                 salary = sc.nextDouble();
             }
-            catch (java.util.InputMismatchException e)
+            catch (InputMismatchException e)
             {
                 System.out.println("\nInvalid Input.");
             }
