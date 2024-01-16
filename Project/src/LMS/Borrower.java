@@ -94,10 +94,7 @@ public class Borrower extends Person
 
         updateBorrowerAddress(choice, reader);
 
-        System.out.println(""
-                + "\nDo you want to update " + 
-                getName() + "'s Phone Number ? (y/n)"
-        );  
+        System.out.println("\nDo you want to update " + getName() + "'s Phone Number ? (y/n)");  
         choice = sc.next();
 
         updateBorrowerPhoneNumber(choice, sc);
