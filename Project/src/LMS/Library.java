@@ -172,7 +172,7 @@ public class Library {
         try{
             id = scanner.nextInt();
         }
-        catch (java.util.InputMismatchException e)
+        catch (InputMismatchException e)
         {
             System.out.println("\nInvalid Input");
         }
