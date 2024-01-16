@@ -89,9 +89,7 @@ public class Borrower extends Person
         updateBorrowerName(choice, reader);
 
 
-        System.out.println(
-        "\nDo you want to update " + getName() + "'s Address ? (y/n)"
-        );  
+        System.out.println("\nDo you want to update " + getName() + "'s Address ? (y/n)");  
         choice = sc.next();
 
         updateBorrowerAddress(choice, reader);
