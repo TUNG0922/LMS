@@ -437,7 +437,7 @@ public class Library {
             System.out.println("Enter Phone Number: ");
             phone = sc.nextInt();
         }
-        catch (java.util.InputMismatchException e)
+        catch (InputMismatchException e)
         {
             System.out.println("\nInvalid Input.");
         }
