@@ -195,8 +195,7 @@ public class Book {
             placeBookOnHold(borrower);
         }
         else
-            System.out.println("\nYou already have one hold "
-                    + "request for this book.\n");
+            System.out.println("\nYou already have one hold request for this book.\n");
     }
 
     
